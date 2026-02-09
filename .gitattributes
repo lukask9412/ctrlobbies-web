@@ -1,0 +1,23 @@
+# JS and CSS → normalize to LF
+*.js     text eol=lf
+*.css    text eol=lf
+
+# Images → binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.svg    binary
+
+# Fonts → binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.otf    binary
+*.eot    binary
+
+# Any text assets → LF
+*.txt    text eol=lf
+*.md     text eol=lf
+* text=auto
